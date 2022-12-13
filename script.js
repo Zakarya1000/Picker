@@ -69,7 +69,7 @@ function getRandomItem(items) {
     return Math.floor(Math.random() * items.length);
 }
 
-function shuffle(array) {
+function shuffle(array) { //stolen code
   let currentIndex = array.length,  randomIndex;
 
   // While there remain elements to shuffle.
