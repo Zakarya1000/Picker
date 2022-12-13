@@ -1,0 +1,83 @@
+body {
+  font-family: Ubuntu, Roboto, sans-serif;
+}
+
+button {
+  border: none;
+  padding: 4px 8px;
+  background-color: #29c9ff;
+  border-radius: 4px;
+  color: #454545;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #11b6ed;
+}
+
+input {
+  margin-bottom: 4px;
+  border: none;
+  background-color: #dddddd;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: #454545;
+  transition-duration: 0.4s;
+}
+
+input:focus {
+  outline: none;
+  background-color: #d1d1d1;
+}
+
+button.update {
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+div.name {
+  padding: 2px;
+  background-color: #dddddd;
+  text-align: center;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  color: #454545;
+}
+
+div.name.selected {
+  background-color: #29c9ff;
+}
+
+div.name.win {
+  background-color: #4bf542;
+}
+
+div.names {
+  padding: 8px;
+  border-radius: 8px;
+  width: 30%;
+  height: 70vh;
+  overflow: scroll;
+  background-color: #eeeeee;
+}
+
+button.start {
+  margin: auto;
+  display: block;
+}
+
+button.remove_button {
+  display: block;
+  float: right;
+}
+
+button.multiple {
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+div.multiple {
+  float: right;
+  margin-right: 6px;
+}
